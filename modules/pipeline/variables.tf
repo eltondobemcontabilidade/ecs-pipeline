@@ -31,7 +31,6 @@ variable "repository_url" {
 }
 
 variable "subnet_ids" {
-  type        = "list"
   description = "Subnet ids"
 }
 

@@ -11,7 +11,6 @@ variable "vpc_id" {
 }
 
 variable "availability_zones" {
-  type        = "list"
   description = "The azs to use"
 }
 
@@ -36,7 +35,6 @@ variable "ecs_sg_id" {
 }
 
 variable "security_groups_ids" {
-  type        = "list"
   description = "Security group lists"
 }
 

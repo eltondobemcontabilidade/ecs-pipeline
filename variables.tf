@@ -77,7 +77,7 @@ variable "container_port" {
 # Github Repository Owner
 variable "git_repository_owner" {
   description = "Github Repository Owner"
-  default     = "msfidelis"
+  default     = "eltondobemcontabilidade"
 }
 
 # Github Repository Project Name
@@ -89,11 +89,11 @@ variable "git_repository_name" {
 # Default Branch
 variable "git_repository_branch" {
   description = "Github Project Branch"
-  default     = "master"
+  default     = "main"
 }
 
 # Customize your AWS Region
 variable "aws_region" {
   description = "AWS Region for the VPC"
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
